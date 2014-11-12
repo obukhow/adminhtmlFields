@@ -6,7 +6,7 @@
 
 ![Demo](http://i.imgur.com/I6F49V6.gif)
 
-##Устновка
+##Установка
 
 1. Копируем предложенные файлы в папку `js/oggetto/adminhtml`.
 2. Подключаем скрипты на страницу редактирования сущности через лэйаут
@@ -47,7 +47,7 @@ class MyCompany_MyModule_Block_Adminhtml_Entity_Edit extends Mage_Adminhtml_Bloc
     }
 ```
 
-## Исользование
+## Использование
 
 ### Обновление заголовков при изменении имени сущности
 
