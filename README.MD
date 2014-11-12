@@ -56,7 +56,7 @@ class MyCompany_MyModule_Block_Adminhtml_Entity_Edit extends Mage_Adminhtml_Bloc
 ```javascript
 new titleFieldUpdater(sourceId, className, updateTitleFlag);
 ```
-Пареметры
+Параметры:
 
 * `sourceId` — идентификатор текстового поля для ввода имени (источник данных)
 * `className` – название класса элементов, в которые необходимо копировать данные из источника. Указанный класс можно присвоить произвольному количеству элементов. При обновлении текстового поля источника, значения во всех элементах с данным классом будут обновлены.
@@ -69,7 +69,7 @@ new titleFieldUpdater(sourceId, className, updateTitleFlag);
 ```javascript
 new fieldTransliterator(sourceId, targetField1, targetField2, ...);
 ```
-Пареметры
+Параметры:
 
 * `sourceId` — идентификатор текстового поля источника данных
 * `targetField1…N` – идентификаторы полей, в которые будут копироваться транслированные данные
